@@ -27,9 +27,9 @@ export default function Home() {
         title="Tokenomics"
         description="Explore our token distribution and economics."
         kpiItems={[
-          { value: "10M", description: "Total Supply", longDescription: "Total supply of MemeWave tokens.", icon: { align: 'LucideIcon' }},
-          { value: "4M", description: "Market Cap", longDescription: "Market capitalization of MemeWave.", icon: { align: 'LucideIcon' }},
-          { value: "2M", description: "Liquidity", longDescription: "Liquidity pool for MemeWave tokens.", icon: { align: 'LucideIcon' }}
+          { value: "10M", description: "Total Supply", longDescription: "Total supply of MemeWave tokens.", icon: {}} ,
+          { value: "4M", description: "Market Cap", longDescription: "Market capitalization of MemeWave.", icon: {}},
+          { value: "2M", description: "Liquidity", longDescription: "Liquidity pool for MemeWave tokens.", icon: {}} 
         ]}
       />
       <FooterLogoEmphasis
